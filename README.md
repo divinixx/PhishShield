@@ -276,26 +276,7 @@ PhishShield/
 - [ ] 🔒 **Enterprise Security**: Enhanced data protection
 - [ ] ⚡ **High Performance**: Scalable cloud deployment
 
-## 📜 License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- **Dataset**: SMS Spam Collection Dataset
-- **Framework**: PyTorch Community
-- **UI Library**: Streamlit Team
-- **Inspiration**: Combating real-world fraud schemes
-
-## 📞 Support & Contact
-
-### 🐛 **Issues & Bug Reports**
--  **GitHub Issues**: [Report a Bug](https://github.com/divinixx/PhishShield/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/divinixx/PhishShield/discussions)
-
-### 📚 **Documentation**
-- 📖 **Repository**: [PhishShield GitHub](https://github.com/divinixx/PhishShield)
-- 🎥 **Video Tutorials**: Coming soon!
 
 *This is a personal project created by divinixx for educational and research purposes.*
 
