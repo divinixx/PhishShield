@@ -14,7 +14,7 @@
 
 *Designed to combat modern scams including Jamtara-style financial fraud schemes*
 
-[🚀 Quick Start](#-quick-start) • [📊 Features](#-features) • [🛠️ Installation](#%EF%B8%8F-installation) • [📱 Usage](#-usage) • [📈 Roadmap](#-roadmap)
+[🚀 Quick Start](#-quick-start) • [📊 Features](#-features) • [🛠️ Installation](#%EF%B8%8F-installation) • [📱 Usage](#-usage) • [🤝 Contributing](#-contributing)
 
 </div>
 
@@ -34,7 +34,7 @@ PhishShield is a comprehensive fraud detection system that combines **machine le
 ### 🧠 **Hybrid AI Detection**
 - **Neural Network**: 97% accuracy on spam detection
 - **Rule-Based Engine**: 30+ financial fraud patterns
-- **Pattern Recognition**: URLs, money amounts, fraud keywords
+- **Pattern Recognition**: Phone numbers, URLs, money amounts
 - **Real-Time Analysis**: Instant fraud scoring
 
 ### 🎯 **Advanced Detection Capabilities**
@@ -42,6 +42,7 @@ PhishShield is a comprehensive fraud detection system that combines **machine le
 |---------|-------------|----------|
 | 💰 Financial Keywords | Banking, UPI, card-related terms | 25+ patterns |
 | 🎣 Phishing Indicators | Urgency, fake offers, social engineering | 20+ patterns |
+| 📞 Phone Analysis | Suspicious number patterns | Multiple formats |
 | 🔗 URL Detection | Malicious domains, shortened links | 7+ patterns |
 | ⏰ Time Pressure | Urgency manipulation tactics | Real-time detection |
 | 💸 Money Mentions | Currency amounts in messages | Multi-currency |
@@ -67,7 +68,7 @@ PhishShield is a comprehensive fraud detection system that combines **machine le
 
 ```bash
 # Clone the repository
-git clone https://github.com/divinixx/PhishShield.git
+git clone https://github.com/yourusername/PhishShield.git
 cd PhishShield
 
 # Run automated setup (Windows)
@@ -81,7 +82,7 @@ python setup_and_run.py
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/divinixx/PhishShield.git
+git clone https://github.com/yourusername/PhishShield.git
 cd PhishShield
 
 # 2. Install dependencies
@@ -143,7 +144,7 @@ Output:
 🚨 SPAM DETECTED (90% confidence)
 📊 Fraud Risk Score: 100%
 💳 Financial Keywords: debit card, reactivate
-� Suspicious Content: Phone number detected
+📞 Phone Numbers: 9876543210
 ⏰ Time Pressure: within 2 hrs
 ```
 
@@ -196,8 +197,8 @@ Input Message
 │                 │    │                  │
 │ • Financial     │    │ • TF-IDF         │
 │ • Phishing      │    │ • 5000 features  │
-│ • URLs          │    │ • 128→64→2       │
-│ • Keywords      │    │ • PyTorch        │
+│ • Phone Numbers │    │ • 128→64→2       │
+│ • URLs          │    │ • PyTorch        │
 └─────────────────┘    └─────────────────┘
      ↓                       ↓
 ┌─────────────────────────────────────────┐
@@ -259,6 +260,39 @@ PhishShield/
 - 🚨 **Report fraud**: Suspicious messages to authorities
 - 🛡️ **Stay informed**: Keep updated on latest scam tactics
 
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+### 🐛 **Bug Reports**
+- Use GitHub Issues to report bugs
+- Include message examples and error details
+- Specify your environment (OS, Python version)
+
+### 💡 **Feature Requests**
+- Suggest new fraud patterns to detect
+- Propose UI/UX improvements
+- Request additional language support
+
+### 🔧 **Development**
+
+```bash
+# Fork and clone the repository
+git clone https://github.com/yourusername/PhishShield.git
+
+# Create a feature branch
+git checkout -b feature/amazing-feature
+
+# Make your changes and test
+python test_fraud_detection.py
+
+# Commit and push
+git commit -m "Add amazing feature"
+git push origin feature/amazing-feature
+
+# Create a Pull Request
+```
+
 ## 📈 Roadmap
 
 ### 🎯 **Upcoming Features**
@@ -287,17 +321,17 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 - **UI Library**: Streamlit Team
 - **Inspiration**: Combating real-world fraud schemes
 
-## 📞 Support & Contact
+## 📞 Support
 
 ### 🐛 **Issues & Bug Reports**
--  **GitHub Issues**: [Report a Bug](https://github.com/divinixx/PhishShield/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/divinixx/PhishShield/discussions)
+- 📧 **Email**: your.email@domain.com
+- 🐙 **GitHub Issues**: [Report a Bug](https://github.com/yourusername/PhishShield/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/PhishShield/discussions)
 
 ### 📚 **Documentation**
-- 📖 **Repository**: [PhishShield GitHub](https://github.com/divinixx/PhishShield)
+- 📖 **Wiki**: [PhishShield Wiki](https://github.com/yourusername/PhishShield/wiki)
 - 🎥 **Video Tutorials**: Coming soon!
-
-*This is a personal project created by divinixx for educational and research purposes.*
+- 📝 **Blog Posts**: [Medium Articles](https://medium.com/@yourusername)
 
 ---
 
@@ -318,9 +352,9 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 <div align="center">
 
-![GitHub stars](https://img.shields.io/github/stars/divinixx/PhishShield?style=social)
-![GitHub forks](https://img.shields.io/github/forks/divinixx/PhishShield?style=social)
-![GitHub issues](https://img.shields.io/github/issues/divinixx/PhishShield)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/divinixx/PhishShield)
+![GitHub stars](https://img.shields.io/github/stars/yourusername/PhishShield?style=social)
+![GitHub forks](https://img.shields.io/github/forks/yourusername/PhishShield?style=social)
+![GitHub issues](https://img.shields.io/github/issues/yourusername/PhishShield)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/PhishShield)
 
 </div>
